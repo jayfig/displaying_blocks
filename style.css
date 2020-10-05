@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-#wrapper{
+.wrapper{
     width: 940px;
     margin: 0px auto;
     outline: 2px solid black;
@@ -11,24 +11,55 @@
     background-color: #d5d2ae;
 }
 
-#header{
+.header{
     height: 125px;
     outline: 2px solid black;
     padding: 0px;
+    text-align: center;
     
-
 }
 
-#header img{
+.header img{
     border: 2px solid black;
+    display:inline-block;
+    margin: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: white;
 
-
- 
-    
 }
 
-#header h1{
+.header h1{
     outline: 2px solid orange;
     display: inline-block;
-    padding-bottom: 0px;    
+    margin: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+/* .blocks{
+    height: 100;
+    width: 100;
+    display: inline-block;
+} */
+#red li{
+    width: 100px;
+    background-color: #f36870;
+    outline: 10px solid #f36870;
+    display: inline-block;
+    margin: 20px;
+    padding: 0px;
+    border: 0px;
+   
+}   
+#blueWhite li{
+    width: 100px;
+    background-color: white;
+    outline: 10px solid #82b4ee;
+    display:inline-block;
+    margin: 20px;
+    padding: 0px;
+    
+
+    
 }
